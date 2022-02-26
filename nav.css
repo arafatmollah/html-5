@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    margin: 0px 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: relative;
+    margin: 10px;
+}
+a:hover{
+    background-color: rgba(245, 167, 23, 0.575);
+}
